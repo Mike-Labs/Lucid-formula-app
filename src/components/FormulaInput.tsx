@@ -37,6 +37,8 @@ const FormulaInput: React.FC = () => {
     setFormula(tags.filter((_, i) => i !== index).join(" "));
   };
 
+  console.log(operators);
+
   return (
     <div className="p-4 border rounded">
       <div className="flex flex-wrap items-center border p-2 rounded">
